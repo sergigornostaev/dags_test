@@ -11,6 +11,8 @@ from airflow.utils.trigger_rule import TriggerRule
 
 print('cp1')
 
+print('cp2')
+
 def check_file_exists():
     """Проверяет наличие файла и возвращает следующий task_id"""
     file_path =  os.path.expanduser('~/datasets_from_net/for_datalens.csv')
