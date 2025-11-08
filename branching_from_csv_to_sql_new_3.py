@@ -9,7 +9,7 @@ from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
 import os
 from airflow.utils.trigger_rule import TriggerRule
 
-
+print('cp1')
 
 def check_file_exists():
     """Проверяет наличие файла и возвращает следующий task_id"""
