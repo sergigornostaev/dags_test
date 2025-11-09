@@ -28,6 +28,8 @@ print('int_rebase_9')
 
 print('int_rebase_10')
 
+print('changing')
+
 def check_file_exists():
     """Проверяет наличие файла и возвращает следующий task_id"""
     file_path =  os.path.expanduser('~/datasets_from_net/for_datalens.csv')
