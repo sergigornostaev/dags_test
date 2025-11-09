@@ -1,7 +1,5 @@
-print('totally_new')
+print('add_new_file')
 
-print('totally_new')
+print('new_line')
 
-print('totally_new')
-
-print('totally_new')
+print('one_more')
